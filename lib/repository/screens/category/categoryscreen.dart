@@ -32,6 +32,8 @@ class CategoryScreen extends StatelessWidget {
     {"img": "image 40.png"},
   ];
 
+  CategoryScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

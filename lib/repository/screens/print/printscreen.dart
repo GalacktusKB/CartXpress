@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 class Printscreen extends StatelessWidget {
   TextEditingController searchController = TextEditingController();
+
+  Printscreen({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

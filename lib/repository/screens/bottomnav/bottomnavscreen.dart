@@ -5,7 +5,9 @@ import 'package:cartxpress/repository/screens/print/printscreen.dart';
 import 'package:cartxpress/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
-class Bottomnavscreen extends StatefulWidget {
+class BottomNavScreen extends StatefulWidget {
+  const BottomNavScreen({super.key});
+
   @override
   State<BottomNavScreen> createState() => _BottomNavScreenState();
 }

@@ -2,7 +2,10 @@ import 'package:cartxpress/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
 class Cartscreen extends StatelessWidget {
-  TextEditingController searchController = TextEditingController();
+  TextEditingController searchController =
+      TextEditingController();
+
+  Cartscreen({super.key}); //Have to add "final" to make it immutable
   @override
   Widget build(BuildContext context) {
     return Scaffold(
